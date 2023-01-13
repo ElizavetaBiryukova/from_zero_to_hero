@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("SpaceMono-Regular"),
+        url("../../fonts/SpaceMono-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("SpaceMono-Bold"),
+        url("../../fonts/SpaceMono-Bold.woff") format("woff");
+}

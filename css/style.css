@@ -2,3 +2,6 @@
 @import "./global/varibles.css";
 @import "./global/visualy-hidden.css";
 
+@import "./blocks/page.css";
+@import "./blocks/page-header.css";
+@import "./blocks/logo.css";

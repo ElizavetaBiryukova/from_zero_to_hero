@@ -1,0 +1,14 @@
+.page {
+    height: 100%;
+    font-family: var(--font-family-base);
+    font-size: var(--basic-text);
+    line-height: 1.6rem;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--bg-color);
+}
+
+.page__body {
+    min-height: 100%;
+    margin: 0;
+}

@@ -1,0 +1,18 @@
+:root {
+    --font-family-base: "Space Mono", Arial, serif;
+
+    --bg-color: #153956;
+    --dark-blue: #002e4d;
+    --light-blue: #b9d1f2;
+    --light-orange: #f2a278;
+    --orange: #f07b61;
+    --white: #FFFFFF;
+    --gray: #C8C8C8;
+
+    --h-size: 2rem;
+    --text-size: 1.3rem;
+
+    --mobile-width: 320px;
+    --tablet-width: 660px;
+    --desktop-width: 960px;
+}
