@@ -1,0 +1,70 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../../img/stars.svg") no-repeat 48% 32%;
+    margin-bottom: 100px;
+}
+
+.home__title {
+    text-align: center;
+    color: var(--light-orange);
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: var(--h-size);
+    line-height: 2rem;
+}
+
+.home__description {
+    margin-bottom: 70px;
+}
+
+.home__image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 8px solid var(--dark-blue);
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px rgba(255, 0, 200, 0.3);
+    transition: 0.3s;
+}
+
+.home__button-link {
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.home__button {
+    position: relative;
+    background-color: var(--orange);
+    padding: 15px 20px;
+    box-shadow: 52px 16px var(--dark-blue);
+    transition: all 200ms ease;
+    border: 1px solid var(--dark-blue);
+}
+
+.home__button::before {
+    content: "+";
+    color: var(--orange);
+    font-size: 3rem;
+    position: absolute;
+    right: 201px;
+    bottom: 73px;
+    display: block;
+    width: 12px;
+    height: 12px;
+}
+
+.home__button::after {
+    content: "+";
+    color: var(--orange);
+    font-size: 2rem;
+    position: absolute;
+    right: 215px;
+    bottom: 45px;
+    display: block;
+    width: 12px;
+    height: 12px;
+}

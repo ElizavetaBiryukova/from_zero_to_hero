@@ -1,0 +1,33 @@
+.burger {
+    position: fixed;
+    top: 32px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    cursor: pointer;
+}
+
+.burger__item {
+    background: var(--orange);
+    height: 5px;
+    margin: 3px 0;
+    transition: .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.burger:hover .burger__item {
+    background: var(--light-blue);
+}
+
+.burger__item--one {
+    width: 50%;
+}
+
+.burger__item--two {
+    width: 100%;
+}
+
+
+.burger__item--three {
+    width: 75%;
+}

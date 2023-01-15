@@ -1,0 +1,10 @@
+.page-header {
+    width: 100%;
+}
+
+.page-header__wrapper {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+}

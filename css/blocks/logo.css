@@ -11,8 +11,8 @@
     content: "+";
     color: var(--orange);
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: 5px;
+    bottom: 5px;
     display: block;
     width: 8px;
     height: 8px;
