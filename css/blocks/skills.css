@@ -1,0 +1,47 @@
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    list-style-type: none;
+    padding: 0%;
+    justify-content: center;
+}
+
+.skills__item {
+    width: 4rem;
+    height: 6rem;
+    text-align: center;
+}
+
+.skills__item--html {
+    background: url("../../img/icons/HTML.svg") no-repeat bottom;
+
+}
+
+.skills__item--css {
+    background: url("../../img/icons/CSS.svg") no-repeat bottom;
+}
+
+.skills__item--js {
+    background: url("../../img/icons/JS.svg") no-repeat bottom;
+}
+
+.skills__item--react {
+    background: url("../../img/icons/react.svg") no-repeat bottom;
+}
+
+.skills__item--gulp {
+    background: url("../../img/icons/gulp.svg") no-repeat bottom;
+}
+
+.skills__item--webpack {
+    background: url("../../img/icons/webpack.svg") no-repeat bottom;
+}
+
+.skills__item--git {
+    background: url("../../img/icons/github.svg") no-repeat bottom;
+}
+
+.skills__item--figma {
+    background: url("../../img/icons/figma.svg") no-repeat bottom;
+}
