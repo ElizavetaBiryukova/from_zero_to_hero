@@ -1,0 +1,28 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url(../../img/stars.svg) no-repeat bottom;
+}
+
+.contacts__title {
+    color: var(--light-blue);
+    text-align: center;
+}
+
+.contacts__list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.contacts__svg {
+    fill: var(--orange);
+}
+
+.contacts__svg:focus,
+.contacts__svg:hover {
+    fill: var(--light-blue);
+}

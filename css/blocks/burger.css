@@ -6,6 +6,7 @@
     flex-direction: column;
     width: 50px;
     cursor: pointer;
+    z-index: 3;
 }
 
 .burger__item {
