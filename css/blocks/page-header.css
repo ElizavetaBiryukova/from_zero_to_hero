@@ -8,3 +8,20 @@
     padding-bottom: 40px;
     width: 100%;
 }
+
+@media (min-width: 690px) {
+    .page-header__wrapper {
+        justify-content: space-between;
+        gap: 20%;
+    }
+}
+
+@media (min-width: 1290px) {
+    .page-header {
+        width: 1200px;
+    }
+
+    .page-header__wrapper {
+        max-width: 1200px;
+    }
+}

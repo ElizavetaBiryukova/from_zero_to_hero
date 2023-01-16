@@ -32,3 +32,9 @@
 .burger__item--three {
     width: 75%;
 }
+
+@media (min-width: 690px) {
+    .burger {
+        display: none;
+    }
+}

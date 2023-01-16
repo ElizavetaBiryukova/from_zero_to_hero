@@ -1,3 +1,30 @@
 .main-nav {
     display: none;
 }
+
+@media (min-width: 690px) {
+    .main-nav {
+        display: block;
+        width: 50%;
+    }
+
+    .main-nav__list {
+        display: flex;
+        gap: 10%;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-top: 3px;
+    }
+
+    .main-nav__link {
+        text-decoration: none;
+        color: var(--light-blue);
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 960px) {
+    .main-nav__link {
+        font-size: 1.2rem;
+    }
+}

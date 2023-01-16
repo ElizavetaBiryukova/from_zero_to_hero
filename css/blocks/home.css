@@ -68,3 +68,17 @@
     width: 12px;
     height: 12px;
 }
+
+@media (min-width: 960px) {
+    .home {
+        padding-top: 23px;
+        background: url(../../img/stars.svg) no-repeat 53% 56%,
+            url(../../img/stars.svg) no-repeat 43% 1%;
+    }
+
+    .home__image {
+        width: 300px;
+        height: 300px;
+        border: 10px solid var(--dark-blue);
+    }
+}
