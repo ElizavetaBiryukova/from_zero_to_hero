@@ -1,13 +1,13 @@
 .about-me__wrapper {
     padding: 85px 0px 205px 30px;
     background: url("../../img/lever-dark.svg") no-repeat 60% 27px,
-    url("../../img/lever-dark.svg") no-repeat 70% 27px,
-    url("../../img/lever-light.svg") no-repeat 80% 27px,
-    url("../../img/button_dark.svg") no-repeat 14px 14%,
-    url("../../img/button_light.svg") no-repeat 14px 22%,
-    url("../../img/button_dark.svg") no-repeat 14px 30%,
-    url("../../img/spaceship-fire.svg") no-repeat 20% bottom,
-    url("../../img/spaceship-fire.svg") no-repeat 90% bottom;
+        url("../../img/lever-dark.svg") no-repeat 70% 27px,
+        url("../../img/lever-light.svg") no-repeat 80% 27px,
+        url("../../img/button_dark.svg") no-repeat 14px 14%,
+        url("../../img/button_light.svg") no-repeat 14px 22%,
+        url("../../img/button_dark.svg") no-repeat 14px 30%,
+        url("../../img/spaceship-fire.svg") no-repeat 17% bottom,
+        url("../../img/spaceship-fire.svg") no-repeat 90% bottom;
 }
 
 .about-me__title {
@@ -19,11 +19,15 @@
     color: var(--orange);
 }
 
+.about-me__link:focus,
+.about-me__link:hover {
+    border-bottom: 2px solid var(--orange);
+}
+
 .about-me__table {
     position: relative;
     display: grid;
     border: 15px solid var(--dark-blue);
-
 }
 
 .about-me__container {
@@ -36,4 +40,21 @@
 .about-me__location {
     padding: 15px 15px;
     border-bottom: 15px solid var(--dark-blue);
+}
+
+@media (min-width: 960px) {
+    .about-me__table {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-me__skills {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .about-me__location {
+        border-bottom: none;
+    }
 }

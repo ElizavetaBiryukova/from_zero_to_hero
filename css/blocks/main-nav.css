@@ -2,6 +2,18 @@
     display: none;
 }
 
+.main-nav__link:focus,
+.main-nav__link:hover {
+    color: var(--light-orange);
+    transition: all 1s ease;
+}
+
+.main-nav__item:focus,
+.main-nav__item:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 1s ease;
+}
+
 @media (min-width: 690px) {
     .main-nav {
         display: block;

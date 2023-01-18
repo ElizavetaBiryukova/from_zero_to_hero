@@ -26,3 +26,10 @@
 .contacts__svg:hover {
     fill: var(--light-blue);
 }
+
+@media (min-width: 960px) {
+    .contacts__list {
+        justify-content: center;
+        gap: 90px;
+    }
+}

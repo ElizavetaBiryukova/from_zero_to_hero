@@ -7,6 +7,11 @@
     justify-content: center;
 }
 
+.skills__title {
+    text-align: center;
+    margin-left: 15px;
+}
+
 .skills__item {
     width: 4rem;
     height: 6rem;
@@ -44,4 +49,15 @@
 
 .skills__item--figma {
     background: url("../../img/icons/figma.svg") no-repeat bottom;
+}
+
+@media (min-width: 960px) {
+    .skills {
+        border-left: 15px solid var(--dark-blue);
+        border-bottom: 15px solid var(--dark-blue);
+    }
+
+    .skills__title {
+        margin: 65px 0px 30px 15px;
+    }
 }

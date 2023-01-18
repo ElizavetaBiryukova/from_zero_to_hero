@@ -43,6 +43,7 @@
     box-shadow: 52px 16px var(--dark-blue);
     transition: all 200ms ease;
     border: 1px solid var(--dark-blue);
+    transition: all 1s ease;
 }
 
 .home__button::before {
@@ -67,6 +68,31 @@
     display: block;
     width: 12px;
     height: 12px;
+}
+
+.home__button:focus .home__button-link, 
+.home__button:hover .home__button-link {
+    color: var(--light-blue);
+}
+
+.home__button:focus, 
+.home__button:hover {
+    box-shadow: none;
+    background-color: var(--light-orange);
+}
+
+.home__button:focus::before, 
+.home__button:hover::before {
+    color: var(--light-blue);
+    transform: scale(1.5, 1.5);
+    transition: all 1s ease;
+}
+
+.home__button:focus::after, 
+.home__button:hover::after {
+    color: var(--light-blue);
+    transform: scale(1.5, 1.5);
+    transition: all 1s ease;
 }
 
 @media (min-width: 960px) {
