@@ -27,6 +27,12 @@
     fill: var(--light-blue);
 }
 
+.contacts__item:focus,
+.contacts__item:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 1s ease;
+}
+
 @media (min-width: 960px) {
     .contacts__list {
         justify-content: center;

@@ -2,6 +2,11 @@
     border: 3px solid var(--light-orange);
 }
 
+.slider__slide:hover,
+.slider__slide:focus {
+    opacity: 0.7;
+}
+
 .slider__description {
     display: flex;
     flex-direction: column;
@@ -24,6 +29,7 @@
 .slider__button {
     font-size: 2rem;
     color: var(--orange);
+    border-color: var(--orange);
 }
 
 .slider__button--prev {
@@ -42,6 +48,11 @@
     width: 50px;
     height: 50px;
     background-color: var(--dark-blue);
+}
+
+.slider__button:hover,
+.slider__button:focus {
+    opacity: 0.5;
 }
 
 @media (min-width: 450px) {

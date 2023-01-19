@@ -45,6 +45,7 @@
 @media (min-width: 960px) {
     .about-me__table {
         grid-template-columns: 1fr 1fr;
+        max-width: 1400px;
     }
 
     .about-me__skills {

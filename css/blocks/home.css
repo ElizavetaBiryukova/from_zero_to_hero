@@ -70,25 +70,30 @@
     height: 12px;
 }
 
-.home__button:focus .home__button-link, 
+.home__button-link:focus,
+.home__button-link:hover {
+    color: var(--light-blue);
+}
+
+.home__button:focus .home__button-link,
 .home__button:hover .home__button-link {
     color: var(--light-blue);
 }
 
-.home__button:focus, 
+.home__button:focus,
 .home__button:hover {
     box-shadow: none;
     background-color: var(--light-orange);
 }
 
-.home__button:focus::before, 
+.home__button:focus::before,
 .home__button:hover::before {
     color: var(--light-blue);
     transform: scale(1.5, 1.5);
     transition: all 1s ease;
 }
 
-.home__button:focus::after, 
+.home__button:focus::after,
 .home__button:hover::after {
     color: var(--light-blue);
     transform: scale(1.5, 1.5);
@@ -106,5 +111,12 @@
         width: 300px;
         height: 300px;
         border: 10px solid var(--dark-blue);
+    }
+}
+
+@media (min-width: 1200px) {
+    .home {
+        background: url(../../img/stars.svg) no-repeat 51% 56%,
+            url(../../img/stars.svg) no-repeat 49% 1%;
     }
 }
