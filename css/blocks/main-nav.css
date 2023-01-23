@@ -14,6 +14,33 @@
     transition: all 1s ease;
 }
 
+.main-nav--open {
+    display: block;
+}
+
+.main-nav--open .main-nav__list {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+    padding: 70px 30px;
+    background-color: var(--dark-blue);
+    gap: 55px;
+}
+
+.main-nav--open .main-nav__link {
+    text-decoration: none;
+    color: var(--light-blue);
+    font-weight: 700;
+    font-size: 20px;
+}
+
 @media (min-width: 690px) {
     .main-nav {
         display: block;

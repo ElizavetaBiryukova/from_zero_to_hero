@@ -60,4 +60,8 @@
     .skills__title {
         margin: 65px 0px 30px 15px;
     }
+
+    .skills__item {
+        margin-bottom: 50px;
+    }
 }
